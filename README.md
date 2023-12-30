@@ -1,4 +1,14 @@
-# new_years_card
+# Happy New Year 2024 !!!
+
+## Concept
+The concept for this year's New Year's card is "Copilot." 
+All the code for this product has been written by AI.
+The two AI services used are as follows:
+- ChatGPT 4
+- Midjourney v6
+May the AI be with you.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -35,4 +45,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# new_years_card
