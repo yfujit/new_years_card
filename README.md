@@ -2,10 +2,13 @@
 
 ## Concept
 The concept for this year's New Year's card is "Copilot." 
+
 All the code for this product has been written by AI.
+
 The two AI services used are as follows:
 - ChatGPT 4
 - Midjourney v6
+
 May the AI be with you.
 
 
