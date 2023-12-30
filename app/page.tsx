@@ -8,7 +8,7 @@ const BASE_PATH = basePath ? basePath : ""
 
 const Home: React.FC = () => {
   return (
-    <div className="items-center justify-center bg-black">
+    <div className="items-center justify-center bg-black" id="wrapper">
       <div className="text-center relative">
         <img
           src={`${BASE_PATH}/happy_new_year_image.png`}
@@ -26,7 +26,9 @@ const Home: React.FC = () => {
         </p>
         </div>
       </div>
-      <Footer />
+      <div className="mt-auto w-full">
+       <Footer />
+      </div>
     </div>
   );
 };
