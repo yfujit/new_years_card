@@ -1,17 +1,15 @@
 # Happy New Year 2024 !!!
 
 ## Concept
-The concept for this year's New Year's card is "Copilot." 
-
-All the code for this product has been written by AI.
-
-The two AI services used are as follows:
+The concept for this year's New Year's card is "Copilot."   
+All the code for this product has been written by AI.  
+The two AI services used are as follows:  
 - ChatGPT 4
 - Midjourney v6
 
 May the AI be with you.
 
-
+## Next.js
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
