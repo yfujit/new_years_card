@@ -1,6 +1,5 @@
 // pages/index.tsx
 import React from 'react';
-import Image from 'next/image'
 import Footer from './Footer';
 
 import { basePath } from "../next.config"
@@ -33,7 +32,7 @@ const Home: React.FC = () => {
       <div className="mt-12 flex items-center">
         <div className="ml-4 text-center">
           <p className="text-gray-700">
-            The concept for this year's New Year's card is <strong>"Copilot."</strong><br />
+            The concept for this 2024 New Year site is <strong>Copilot.</strong><br />
             All the code and images for this product has been created by AI.<br />
             May our dreams come true in a magical world where envisioning leads to greater strength and accuracy.<br />
             Wishing that each of you achieves as much as possible with AI.
@@ -50,8 +49,6 @@ const Home: React.FC = () => {
           <img
             src={`${BASE_PATH}/nextjs_logo.png`}
             alt="NextJS"
-            width={300}
-            height={200}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -68,8 +65,6 @@ const Home: React.FC = () => {
           <img
             src={`${BASE_PATH}/midjourney_logo.png`}
             alt="Midjourney"
-            width={300}
-            height={200}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -85,8 +80,6 @@ const Home: React.FC = () => {
           <img
             src={`${BASE_PATH}/chatgpt_logo.png`}
             alt="ChatGPT"
-            width={300}
-            height={200}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
@@ -102,8 +95,6 @@ const Home: React.FC = () => {
           <img
             src={`${BASE_PATH}/github_pages_logo.png`}
             alt="Github Pages"
-            width={300}
-            height={200}
             className="w-full h-48 object-cover"
           />
           <div className="p-4">
