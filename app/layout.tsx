@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Happy New Year !!',
-  description: 'Happy New Year 2024 by Toshiyuki',
+  description: 'Best wishes for a successful and rewarding year.',
 }
 
 export default function RootLayout({
