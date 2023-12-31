@@ -1,5 +1,6 @@
 // pages/index.tsx
 import React from 'react';
+import Image from 'next/image'
 import Footer from './Footer';
 
 import { basePath } from "../next.config"
