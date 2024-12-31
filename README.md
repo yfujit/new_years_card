@@ -1,11 +1,12 @@
-# Happy New Year 2024 !!!
+# Happy New Year 2025 !!!
 
 ## Concept
-The concept for this year's New Year's card is "Copilot."   
-All the code for this product has been written by AI.  
+The concept for this year's New Year's card is "Move".   
+All the code and videos for this product has been created by AI.  
 The two AI services used are as follows:  
-- ChatGPT 4
-- Midjourney v6
+- OpenAI
+    - GPT 4o
+    - Sora
 
 May the AI be with you.
 
