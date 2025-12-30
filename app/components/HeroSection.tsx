@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { siteConfig } from '../../config/siteConfig';
 import { breakpoints } from '../../config/responsive';
 import { imageConfig } from '../../config/imageConfig';
+import { getAssetPath } from '../../lib/utils';
 
 const HeroSection: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const HeroSection: React.FC = () => {
         {/* Background Image - Full Screen */}
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/happy_new_year_image.png"
+            src={getAssetPath("/happy_new_year_image.png")}
             alt="2026年新年メインビジュアル - 龍と仕様書が舞う新年の挨拶。構造化された思考の力を表現するAI生成アニメーション"
             fill
             priority={imageConfig.priority.hero}

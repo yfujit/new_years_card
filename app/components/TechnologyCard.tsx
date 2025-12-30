@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Technology } from '../../types';
 import { imageConfig } from '../../config/imageConfig';
+import { getAssetPath } from '../../lib/utils';
 
 interface TechnologyCardProps {
   technology: Technology;
@@ -13,7 +14,7 @@ export default function TechnologyCard({ technology }: TechnologyCardProps) {
         {/* Technology Logo */}
         <div className="w-12 h-12 sm:w-16 sm:h-16 relative flex-shrink-0">
           <Image
-            src={technology.logoPath}
+            src={getAssetPath(technology.logoPath)}
             alt={`${technology.name}のロゴ`}
             fill
             className="object-contain"
