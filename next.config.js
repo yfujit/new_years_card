@@ -7,7 +7,13 @@ const nextConfig = {
   },
   // GitHub Pages deployment configuration
   basePath: process.env.NODE_ENV === 'production' ? '/new-year-2026' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/new-year-2026/' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/new-year-2026' : '',
+  
+  // Ensure proper static file handling
+  experimental: {
+    // This helps with static file serving on GitHub Pages
+    optimizeCss: false,
+  },
   
   // i18n configuration for static export
   // Note: Next.js i18n config is not compatible with output: "export"
