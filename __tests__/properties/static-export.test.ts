@@ -34,14 +34,14 @@ describe('Static Export Configuration Properties', () => {
         // Since the config uses process.env.NODE_ENV, we'll test the logic directly
         
         // Test production environment logic
-        const prodBasePath = 'production' === 'production' ? '/new-year-2026' : '';
-        const prodAssetPrefix = 'production' === 'production' ? '/new-year-2026/' : '';
-        expect(prodBasePath).toBe('/new-year-2026');
-        expect(prodAssetPrefix).toBe('/new-year-2026/');
+        const prodBasePath = 'production' === 'production' ? '/new_years_card' : '';
+        const prodAssetPrefix = 'production' === 'production' ? '/new_years_card' : '';
+        expect(prodBasePath).toBe('/new_years_card');
+        expect(prodAssetPrefix).toBe('/new_years_card');
         
         // Test development environment logic
-        const devBasePath = 'development' === 'production' ? '/new-year-2026' : '';
-        const devAssetPrefix = 'development' === 'production' ? '/new-year-2026/' : '';
+        const devBasePath = 'development' === 'production' ? '/new_years_card' : '';
+        const devAssetPrefix = 'development' === 'production' ? '/new_years_card' : '';
         expect(devBasePath).toBe('');
         expect(devAssetPrefix).toBe('');
         

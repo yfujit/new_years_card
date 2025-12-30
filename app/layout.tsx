@@ -8,7 +8,7 @@ const notoSansJP = Noto_Sans_JP({ subsets: ['latin'] })
 // Generate metadata for the site
 export const metadata: Metadata = {
   title: '2026年 新年のご挨拶 | Specification',
-  description: '2026年のテーマ「Specification」をコンセプトとした新年挨拶サイト。AI技術を活用して作成されました。',
+  description: '謹賀新年',
   keywords: ['新年', '2026', 'Specification', 'AI', 'Next.js', 'Kiro', 'nijijourney'],
   authors: [{ name: 'Toshiyuki' }],
   creator: 'Toshiyuki',
@@ -16,14 +16,14 @@ export const metadata: Metadata = {
   robots: 'index, follow',
   openGraph: {
     title: '2026年 新年のご挨拶 | Specification',
-    description: '2026年のテーマ「Specification」をコンセプトとした新年挨拶サイト',
+    description: '謹賀新年',
     type: 'website',
     locale: 'ja_JP',
   },
   twitter: {
     card: 'summary_large_image',
     title: '2026年 新年のご挨拶 | Specification',
-    description: '2026年のテーマ「Specification」をコンセプトとした新年挨拶サイト',
+    description: '謹賀新年',
   },
 }
 
