@@ -1,12 +1,30 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Noto_Sans_JP } from 'next/font/google'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
+const notoSansJP = Noto_Sans_JP({ subsets: ['latin'] })
 
+// Generate metadata for the site
 export const metadata: Metadata = {
-  title: 'Happy New Year !!',
-  description: 'Best wishes for a successful and rewarding year.',
+  title: '2026年 新年のご挨拶 | Specification',
+  description: '2026年のテーマ「Specification」をコンセプトとした新年挨拶サイト。AI技術を活用して作成されました。',
+  keywords: ['新年', '2026', 'Specification', 'AI', 'Next.js', 'Kiro', 'nijijourney'],
+  authors: [{ name: 'Toshiyuki' }],
+  creator: 'Toshiyuki',
+  publisher: 'Toshiyuki',
+  robots: 'index, follow',
+  openGraph: {
+    title: '2026年 新年のご挨拶 | Specification',
+    description: '2026年のテーマ「Specification」をコンセプトとした新年挨拶サイト',
+    type: 'website',
+    locale: 'ja_JP',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '2026年 新年のご挨拶 | Specification',
+    description: '2026年のテーマ「Specification」をコンセプトとした新年挨拶サイト',
+  },
 }
 
 export default function RootLayout({
@@ -15,8 +33,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ja">
+      <body className={`${inter.className} ${notoSansJP.className} antialiased`}>
+        <div className="min-h-screen">
+          {children}
+        </div>
+      </body>
     </html>
   )
 }

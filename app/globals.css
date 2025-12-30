@@ -3,33 +3,86 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* 2026 New Year Theme Colors */
+  --primary-gold: #d4af37;
+  --primary-blue: #1e40af;
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --background-light: #ffffff;
+  --background-gradient-start: #f8fafc;
+  --background-gradient-end: #e2e8f0;
+  --accent-red: #dc2626;
+  --border-light: #e5e7eb;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --text-primary: #f9fafb;
+    --text-secondary: #d1d5db;
+    --background-light: #111827;
+    --background-gradient-start: #1f2937;
+    --background-gradient-end: #111827;
+    --border-light: #374151;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: var(--text-primary);
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-  rgb(var(--background-start-rgb));
+    to bottom,
+    var(--background-gradient-start),
+    var(--background-gradient-end)
+  );
+  min-height: 100vh;
+  line-height: 1.6;
 }
 
-body,
-#wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-blue);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-gold);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+*:focus {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+}
+
+/* Custom utility classes */
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, var(--primary-gold), var(--primary-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .border-gradient {
+    border: 1px solid transparent;
+    background: linear-gradient(var(--background-light), var(--background-light)) padding-box,
+                linear-gradient(135deg, var(--primary-gold), var(--primary-blue)) border-box;
+  }
+  
+  .shadow-gold {
+    box-shadow: 0 4px 6px -1px rgba(212, 175, 55, 0.1), 0 2px 4px -1px rgba(212, 175, 55, 0.06);
+  }
 }
 
