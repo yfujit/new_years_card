@@ -1,21 +1,42 @@
-# Happy New Year 2025 !!!
+# New Year 2026 Greeting | Specification
 
 ## Concept
-The concept for this year's New Year's card is "Move".   
-All the code and videos for this product has been created by AI.  
-The two AI services used are as follows:  
-- OpenAI
-    - GPT 4o
-    - Sora
+The theme for 2026 is "**Specification**".
 
-May the AI be with you.
+We aim to set more concrete goals and move forward steadily, step by step. Clear specifications serve as a roadmap that eliminates ambiguity and leads to certain results.
 
-## Next.js
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Just as small accumulations create great changes, we hope to build our ideal future step by step through detailed planning and steady execution.
 
-## Getting Started
+## Technologies Used
+All code and visual content for this website were created using the following AI technologies:
 
-First, run the development server:
+- **Kiro** - AI-powered IDE with Spec Coding and optimization
+  - Systematic development process from requirements definition to design and implementation
+  - Advanced reasoning capabilities for creating optimized and accessible code
+
+- **nijijourney** - Anime-style AI-generated visual content
+  - All visual content generated in high-quality animation style
+
+- **Next.js 16+** - Frontend framework with static export capabilities
+  - Modern architecture using App Router
+  - Optimized for GitHub Pages deployment
+
+- **GitHub Pages** - Static site hosting with automated CI/CD pipeline
+
+## Three Pillars of Specification
+
+### 🎯 Precision
+Set clear and measurable goals, and take responsibility for achieving them
+
+### 🔗 Structure  
+Systematically organize plans and processes for goal achievement, constantly visualize and manage progress and the gap between current status and target values
+
+### 🚀 Innovation
+Actively embrace new challenges and promote value creation in both business and personal aspects through continuous growth
+
+## Development & Deployment
+
+### Starting the Development Server
 
 ```bash
 npm run dev
@@ -31,19 +52,42 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Build and Static Export
+
+```bash
+npm run build
+```
+
+This project is configured for static export, and static files will be generated in the `out` directory.
+
+### GitHub Pages Deployment
+
+This site is automatically deployed on GitHub Pages:
+- **URL**: https://yfujit.github.io/new_years_card/
+- **Auto Deploy**: Automatically executed via GitHub Actions on push to main branch
+- **Static Site**: Uses Next.js static export functionality
+
+## Project Structure
+
+This project is built based on the following technical specifications:
+
+- **Framework**: Next.js 16+ (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Font Optimization**: Automatic Inter font optimization via [`next/font`](https://nextjs.org/docs/basic-features/font-optimization)
+- **Image Optimization**: Optimized settings for static export
+- **Testing**: Comprehensive testing with Jest + React Testing Library
+- **CI/CD**: Automated build and deployment via GitHub Actions
 
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Happy New Year 2026** - May this year bring wonderful opportunities and achievements to everyone.
